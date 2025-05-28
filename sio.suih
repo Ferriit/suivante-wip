@@ -1,0 +1,11 @@
+#import <stdio.h>
+
+func int iprint(int Val) {
+    printf("%d", Val);
+    return Val;
+}
+
+func str print(str Val) {
+    printf("%s", Val);
+    return Val;
+}
