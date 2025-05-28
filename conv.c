@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "conv.h"
 
 int atoi(const char* str) {
     return (int)strtol(str, NULL, 10);
